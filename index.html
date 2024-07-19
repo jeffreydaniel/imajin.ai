@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    <title>imajin.ai</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section class="image-generator">
+        <div class="content">
+            <h1> AI Image Generator </h1> 
+            <p> Bring your imagination to life with this tool, powered by OpenAI.</p>
+            <form action="#" class = "generate-form">
+                <input type="text" class="prompt-input" placeholder="Describe what you want to see, in detail." required>
+                <div class="controls">
+                    <select  class="img-quantity">
+                        <option value="1"> 1 Image </option>
+                        <option value="2"> 2 Images </option>
+                        <option value="3"> 3 Images </option>
+                        <option value="4" selected> 4 Images </option>
+                    </select>
+                    <button type="submit" class="generate-btn"> Generate </button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="image-gallery">
+        <div class="img-card">
+            <img src="images/img.jfif" alt="image">
+            <a href="#" class="download-btn">
+                <img src="images/download.jpg" alt="download icon">
+            </a>
+        </div>
+        <div class="img-card">
+            <img src="images/img2.jfif" alt="image">
+            <a href="#" class="download-btn">
+                <img src="images/download.jpg" alt="download icon">
+            </a>
+        </div>
+        <div class="img-card">
+            <img src="images/img3.jfif" alt="image">
+            <a href="#" class="download-btn">
+                <img src="images/download.jpg" alt="download icon">
+            </a>
+        </div>
+        <div class="img-card">
+            <img src="images/img4.jfif" alt="image">
+            <a href="#" class="download-btn">
+                <img src="images/download.jpg" alt="download icon">
+            </a>
+        </div>
+    </section>
+</body>
+</html>
