@@ -19,6 +19,7 @@ const updateImageCard = (imgDataArray) => {
     });
 }
 
+// API KEY GOES HERE
 const OPENAI_API_KEY = "yourkeyhere";
 
 let isImageGenerating = false;
